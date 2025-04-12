@@ -7,7 +7,7 @@
 
 ---　
 
-📎 [▶ ポートフォリオサイトはこちら](https://yuichi-chi.github.io/) 
+📎 [▶ ポートフォリオサイトはこちら](https://yuichi-chi.github.io/) 　
 （※新しいタブで開くには Ctrl + クリックしてください）
 
 ---
