@@ -11,7 +11,9 @@
 
   <h3>背景</h3>
   <p>
-    SUIエコシステム上で配布されたエアドロップトークン <strong>mSEND</strong> は、専用のRedeem機能を通じて <strong>SEND</strong> に変換可能でした。
+    SUIエコシステム上で配布されたエアドロップトークン <strong>mSEND</strong> は、<a href="https://suilend.fi/" target="_blank">Suilend</a> の独自トークンであり、専用のRedeem機能を通じて <strong>SEND</strong> に変換可能でした。
+
+
     ただし、その際に <strong>一定のSUIをペナルティとして支払う必要がある</strong>という仕組みが存在しました。この3つのトークン間の相互作用は複雑であり、価格の歪みが生じやすいと考えました。
   </p>
 
@@ -36,7 +38,7 @@
     この戦略はredeem期間が終わったことで現在はエッジが消失していますが、当時は明確な裁定機会として機能していました。
   </p>
 
-  <h3>証拠トランザクション</h3>
+  <h3>証拠トランザクション例</h3>
   <p>以下は、即時Redeemの際に行ったトランザクション履歴です(※画像下から上に向かって時系列順に並んでいます)</p>
   <img src="../../images/Transactions.png" alt="Redeem Transaction" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" class="modal-trigger">
 </section>
@@ -76,7 +78,7 @@
 </p>
 
 <p>
-  しかし当時、<strong>SUILendのSDKにはmSENDのRedeemに対応するコマンドが存在していなかった</strong>ため、完全な自動化（取引実行）には至りませんでした。
+  しかし当時、<strong>SUILendのSDKにはmSENDのRedeemに対応するコマンドが存在していなかった</strong>ため、完全な自動化（取引実行）には至れませんでした。
 </p>
 <p>
   そのため、最終的な取引はすべて手動で行いましたが、価格差検出やトレードタイミングの最適化においては、
