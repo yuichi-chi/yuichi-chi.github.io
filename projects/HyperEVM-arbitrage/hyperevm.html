@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HyperEVM Arbitrage</title>
+  <link rel="stylesheet" href="hyperevm.css">
+</head>
+<body>
+  <section>
+    <h1>HyperEVM Arbitrage: 価格振動スナイパー</h1>
+    <p>
+      本プロジェクトでは、HyperEVMチェーン上における価格の振動・微細なタイムラグを検出し、
+      <strong>その一瞬の価格差を利用して自動的にアービトラージを実行</strong>するボットを構築しました。
+      本戦略は現在も有効な裁定機会を含むため、プロジェクト名および一部の詳細は意図的に伏せています。
+    </p>
+
+    <h3>戦略の概要</h3>
+    <ul>
+      <li>リアルタイムでDEXの価格を監視</li>
+      <li>閾値を超えた価格変動を即時に検出</li>
+      <li>裁定機会を確認し、自動でトランザクションを生成・送信</li>
+    </ul>
+
+    <h3>技術的ポイント</h3>
+    <p>
+      検出・トランザクションの作成・署名・送信までをすべて自動化しています。<br>
+      これにより、<strong>手動操作なしで24時間アービトラージを継続的に行える仕組み</strong>が実現されました。
+    </p>
+
+    <h3>今後の展望</h3>
+    <p>
+      現在は一定の価格変動幅に基づくトリガーで起動していますが、将来的にはボラティリティ・オラクル統合・マルチDEX対応を検討中です。
+    </p>
+  </section>
+</body>
+</html>

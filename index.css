@@ -1,0 +1,68 @@
+/* ====== トップページ用 CSS (index.css) ====== */
+
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    line-height: 1.8;
+    background-color: #0a0f1c;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 100px 20px 60px;
+    background: radial-gradient(circle at center, #0f2027, #203a43, #2c5364);
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #00c2ff;
+  }
+  
+  header p {
+    font-size: 1.3rem;
+    color: #ccc;
+    margin-top: 10px;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .project-card {
+    background: #121d2e;
+    border: 1px solid #00c2ff33;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 194, 255, 0.2);
+  }
+  
+  .project-card a {
+    color: #00c2ff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 0.9rem;
+    color: #777;
+    background-color: #0a0f1c;
+    margin-top: 60px;
+    border-top: 1px solid #333;
+  }
+  
