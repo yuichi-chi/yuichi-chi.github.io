@@ -20,7 +20,7 @@
 - **Web3.js**: フロントエンドとブロックチェーンの連携
 - **Next.js**: フロントエンド開発
 - **Vercel**: ウェブサイトのホスティング
-詳細は[プロジェクトページ](https://yuichi-chi.github.io/projects/NFT/nft.html)をご覧ください。
+詳細は[プロジェクトページ]([https://yuichi-chi.github.io/projects/NFT/nft.html](https://github.com/yuichi-chi/mint_NFT))をご覧ください。
 
 
 
